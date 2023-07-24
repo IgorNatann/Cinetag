@@ -9,6 +9,7 @@ export default function Cabecalho() {
     <header className={styles.cabecalho}>
         <Link to="./">
             <img src={logo} alt='Logo do Cinetag'></img>
+        </Link>
             <nav>
                 <CabecalhoLink url="./">
                   Home
@@ -17,7 +18,6 @@ export default function Cabecalho() {
                   Favoritos
                 </CabecalhoLink>
             </nav>
-        </Link>
     </header>
   )
 }
